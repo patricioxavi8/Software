@@ -37,7 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+     'ApiCursos',
 ]
+
+AUTH_USER_MODEL = 'ApiCursos.Persona'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
